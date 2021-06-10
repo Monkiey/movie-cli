@@ -1,30 +1,29 @@
 {
-  "name": "movie-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "hello-node",
+  "version": "0.0.1",
+  "description": "A simple Node app built on fastify, instantly up and running.",
+  "main": "server.js",
   "scripts": {
-    "start": "ts-node .",
-    "build": "etsc"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^14.14.31",
-    "@types/node-fetch": "^2.5.8",
-    "@types/yargs": "^16.0.0",
-    "esbuild": "^0.8.53",
-    "esbuild-node-tsc": "^1.2.0",
-    "fuse.js": "^6.4.6",
-    "json5": "^2.2.0",
-    "node-fetch": "^2.6.1",
-    "prompts": "^2.4.0",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.2",
-    "yargs": "^16.2.0"
+    "fastify": "^3.17.0",
+    "fastify-formbody": "^5.0.0",
+    "fastify-static": "^4.2.2",
+    "handlebars": "^4.7.7",
+    "point-of-view": "^4.14.0",
+    "@glidejs/glide": "^3.4.1"
   },
-  "devDependencies": {
-    "@types/prompts": "^2.0.9"
-  }
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
